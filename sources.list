@@ -3,23 +3,13 @@
 #------------------------------------------------------------------------------#
 
 ###### Debian Main Repos
+deb http://ftp.tw.debian.org/debian/ jessie main contrib non-free 
+deb-src http://ftp.tw.debian.org/debian/ jessie main contrib non-free 
 deb http://ftp.tw.debian.org/debian/ stretch main contrib non-free 
 deb-src http://ftp.tw.debian.org/debian/ stretch main contrib non-free 
 
 ###### Debian Update Repos
-deb http://security.debian.org/ stretch/updates main contrib non-free 
-deb http://ftp.tw.debian.org/debian/ stretch-proposed-updates main contrib non-free 
-deb-src http://security.debian.org/ stretch/updates main contrib non-free 
-deb-src http://ftp.tw.debian.org/debian/ stretch-proposed-updates main contrib non-free 
-
-#------------------------------------------------------------------------------#
-#                      UNOFFICIAL  REPOS                       #
-#------------------------------------------------------------------------------#
-
-###### 3rd Party Binary Repos
-
-#### Steam for Linux - http://store.steampowered.com/about/
-## Run this command: apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F24AEA9FB05498B7
-deb [arch=i386] http://repo.steampowered.com/steam/ precise steam
-
-
+deb http://security.debian.org/ jessie/updates main contrib non-free 
+deb http://ftp.tw.debian.org/debian/ jessie-proposed-updates main contrib non-free 
+deb-src http://security.debian.org/ jessie/updates main contrib non-free 
+deb-src http://ftp.tw.debian.org/debian/ jessie-proposed-updates main contrib non-free 
